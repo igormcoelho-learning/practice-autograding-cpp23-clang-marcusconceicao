@@ -13,11 +13,15 @@ export int mul(int a, int b);
 
 export int add(int a, int b)
 {
-   return 0; // TODO: fix
+   int c =0;
+   c = a+b;
+   return c; // TODO: fix
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
 export int mul(int a, int b)
 {
-   return 0; // TODO: fix
+   int c =0;
+   c = a*b;
+   return c; // TODO: fix
 }
