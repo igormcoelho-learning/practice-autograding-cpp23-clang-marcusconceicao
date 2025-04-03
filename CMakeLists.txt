@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 4.0.0)
 # set(CMAKE_CXX_COMPILER /usr/bin/g++-15)
-# set(CMAKE_CXX_COMPILER /usr/bin/clang++-19)
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+set(CMAKE_CXX_COMPILER /usr/bin/clang++-19)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

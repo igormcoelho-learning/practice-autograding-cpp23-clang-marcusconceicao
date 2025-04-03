@@ -2,7 +2,7 @@ all: clean test
 
 appTests: deps
 	mkdir -p build
-	cd build && cmake .. -GNinja
+	cd build && cmake .. -GNinja && ninja
 
 test: appTests
 	./build/app_tests
